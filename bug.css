@@ -1,0 +1,1 @@
+The following CSS code snippet demonstrates an issue where the expected behavior of the `:hover` pseudo-class on a nested element does not occur as intended. The inner element's hover effect is unintentionally overridden by the outer element's hover effect.  This can be a subtle and difficult-to-debug issue.
