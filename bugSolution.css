@@ -1,0 +1,8 @@
+The solution involves using more specific selectors. Instead of relying on a general :hover selector on the parent, use a more precise selector that explicitly targets the `.inner` element while still accounting for the `.outer` element's hover state.
+
+```css
+.outer:hover .inner {
+  background-color: lightblue;
+}
+```
+This ensures that the `background-color` change only occurs when the `.inner` element is hovered over while the `.outer` element is also in a hover state.
